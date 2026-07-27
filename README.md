@@ -31,9 +31,9 @@ A full Flask web application built for a real NGO — from an empty repo to near
 <summary><b>🧵 Click to see how it's built</b></summary>
 <br>
 **Backend architecture**
-- Built the whole backend from scratch across multiple sessions — no boilerplate starter
+- I built the whole backend from scratch across multiple sessions.
 - **App factory pattern**, so the app can be spun up cleanly for testing vs. production
-- **Blueprint-based routing** to keep auth, donations, children's profiles, and contact forms in their own lanes instead of one giant `app.py`
+- **Blueprint-based routing** to keep auth, donations, children's profiles, and contact forms in their own lanes instead of one giant `app.py` I like to know where things are (OCD type, haha!)
 - A dedicated **service layer** sitting between routes and models, so view functions stay thin and business logic stays testable
 - **SQLAlchemy models**: `User`, `Donation`, `Child`, `ContactMessage`
 - **Flask-Migrate** for versioned schema changes as the data model evolved
@@ -43,9 +43,12 @@ A full Flask web application built for a real NGO — from an empty repo to near
 - **gitleaks** pre-commit hooks so secrets never make it into a commit in the first place
 - Manually reviewed the schema itself for security concerns (data exposure, injection surfaces)
 - Next up: a **STRIDE threat model** write-up of the whole system
+  
 **Frontend**
-- **Bootstrap 5** — a deliberate choice over plain CSS or React, since this needs to stay maintainable for a nonprofit team down the line, not just impressive to look at
+  - **Bootstrap 5** — a deliberate choice over plain CSS or React, since this needs to stay maintainable for a nonprofit team down the line, not just impressive to look at
+  
 **Where it's at**
+  
 - Currently at the **pytest stage** — writing test coverage before calling this portfolio-ready
 - Developed on Pop!_OS/Linux in VS Code, version-controlled on GitHub
 </details>
