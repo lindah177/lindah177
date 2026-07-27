@@ -12,7 +12,7 @@
 
 ## 🎨 About Me
 
-- 🎓 Software engineering graduate of **WeThinkCode_** (NQF Level 6)
+- 🎓 Software engineering graduate from **WeThinkCode_** (NQF Level 6)
 - 🔐 Pivoting into **cybersecurity** while staying sharp on full-stack dev
 - 🌍 Based in South Africa
 - 📐 Once tutored maths, physics & life sciences — teaching brain never turns off
@@ -22,14 +22,35 @@
 <br>
 
 ## 🔭 What I'm Currently Building
+ 
+### 🩹 Sunshine Children's Care Centre
+ 
+A full Flask web application built for a real NGO — from an empty repo to near portfolio-ready, one deliberate architectural decision at a time.
+ 
+<details>
+<summary><b>🧵 Click to see how it's built</b></summary>
+<br>
+**Backend architecture**
+- Built the whole backend from scratch across multiple sessions — no boilerplate starter
+- **App factory pattern**, so the app can be spun up cleanly for testing vs. production
+- **Blueprint-based routing** to keep auth, donations, children's profiles, and contact forms in their own lanes instead of one giant `app.py`
+- A dedicated **service layer** sitting between routes and models, so view functions stay thin and business logic stays testable
+- **SQLAlchemy models**: `User`, `Donation`, `Child`, `ContactMessage`
+- **Flask-Migrate** for versioned schema changes as the data model evolved
+- **Flask-WTF** for CSRF protection across every form
+**Security, from day one — not bolted on after**
+- **Bandit** static analysis wired in to catch common Python security issues early
+- **gitleaks** pre-commit hooks so secrets never make it into a commit in the first place
+- Manually reviewed the schema itself for security concerns (data exposure, injection surfaces)
+- Next up: a **STRIDE threat model** write-up of the whole system
+**Frontend**
+- **Bootstrap 5** — a deliberate choice over plain CSS or React, since this needs to stay maintainable for a nonprofit team down the line, not just impressive to look at
+**Where it's at**
+- Currently at the **pytest stage** — writing test coverage before calling this portfolio-ready
+- Developed on Pop!_OS/Linux in VS Code, version-controlled on GitHub
+</details>
+<br>
 
-```
-🩹 Sunshine Children's Care Centre — a Flask web app for an NGO
-   → app factory pattern, Blueprints, SQLAlchemy, security-scanned with Bandit & gitleaks
-
-🕵️‍♀️ The Ink Remembers — a mystery game built in a 48-hour game jam
-   → vanilla HTML/CSS/JS, I own the UI + the corkboard clue system
-```
 
 ## 🌱 What I'm Currently Learning
 
