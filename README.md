@@ -63,20 +63,6 @@
 ![Bandit](https://img.shields.io/badge/Bandit-security_scan-F7931E?style=for-the-badge&logo=security&logoColor=white)
 </div>
 
-<br>
-
-## 📊 GitHub Stats
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=lindah177&show_icons=true&theme=radical&hide_border=true&count_private=true" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=lindah177&theme=radical&hide_border=true" width="48%" />
-</div>
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lindah177&layout=compact&theme=radical&hide_border=true" width="55%" />
-</div>
-
-<br>
 
 ## 🤝 Let's Connect
 
