@@ -23,14 +23,15 @@
 
 ## 🔭 What I'm Currently Building
  
-### 🩹 Sunshine Children's Care Centre
+### 🩹 Golden Ark Care Centre
  
 A full Flask web application built for a real NGO — from an empty repo to near portfolio-ready, one deliberate architectural decision at a time.
  
 <details>
 <summary><b>🧵 Click to see how it's built</b></summary>
 <br>
-**Backend architecture**
+**Backend**
+  
 - I built the whole backend from scratch across multiple sessions.
 - **App factory pattern**, so the app can be spun up cleanly for testing vs. production
 - **Blueprint-based routing** to keep auth, donations, children's profiles, and contact forms in their own lanes instead of one giant `app.py` I like to know where things are (OCD type, haha!)
@@ -53,6 +54,15 @@ A full Flask web application built for a real NGO — from an empty repo to near
 - Developed on Pop!_OS/Linux in VS Code, version-controlled on GitHub
 </details>
 <br>
+
+### 🚦 GuardianDrive AI
+
+```
+Collaborating on GuardianDrive AI — an intelligent DUI prevention system.
+Built the frontend demo dashboard in HTML/CSS/JS, connecting to a Spring Boot
+backend via fetch(). Rebuilding it step-by-step to deeply understand every
+moving part before calling it done.
+```
 
 
 ## 🌱 What I'm Currently Learning
