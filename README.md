@@ -1,4 +1,4 @@
-<div align="center"> <img src="./assets/pastel-stripe-banner.svg" width="100%" alt="Pastel green and white striped banner reading Hello, I'm Lindah — Graduate Software Engineer, DevSecOps, and Cyber Security" /> <a href="https://github.com/lindah177">
+<div align="center"> <img src="./pastel-stripe-banner.svg" width="100%" alt="Pastel green and white striped banner reading Hello, I'm Lindah — Graduate Software Engineer, DevSecOps, and Cyber Security" /> <a href="https://github.com/lindah177">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1200&color=4C8065&center=true&vCenter=true&width=650&lines=Building+with+Python+%26+Java;Developing+hands-on+cybersecurity+tools;Learning+by+building%2C+testing%2C+and+refining" alt="Building with Python and Java; developing cybersecurity tools; learning through practice" />
 </a> </div>   
 
