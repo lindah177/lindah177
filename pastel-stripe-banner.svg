@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Hello, I'm Lindah</title>
+  <desc id="desc">Broad alternating fresh pastel-green and white horizontal stripes with a centered introduction.</desc>
+  <rect width="1200" height="260" fill="#ffffff"/>
+  <rect y="0" width="1200" height="52" fill="#c8e4ce"/>
+  <rect y="104" width="1200" height="52" fill="#c8e4ce"/>
+  <rect y="208" width="1200" height="52" fill="#c8e4ce"/>
+  <rect y="52" width="1200" height="52" fill="#ffffff"/>
+  <rect y="156" width="1200" height="52" fill="#ffffff"/>
+  <rect x="75" y="68" width="1050" height="124" rx="20" fill="#ffffff" fill-opacity="0.90"/>
+  <text x="600" y="117" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#315d46">Hello, I’m Lindah!</text>
+  <text x="600" y="157" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600" fill="#496b58">Graduate Software Engineer  ·  DevSecOps  ·  Cyber Security</text>
+</svg>
