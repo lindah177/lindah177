@@ -17,7 +17,7 @@
 
 ## What I’m Building
 
-### reconpy — Python Security Reconnaissance Tools
+### Reconpy — Python Security Reconnaissance Tools
 
 I’m building a collection of Python tools for hands-on network reconnaissance and vulnerability research. The work includes **TCP port scanning**, **banner grabbing**, **service identification**, and **DNS/WHOIS lookups**, with a vulnerability scanner in development to match discovered services and versions against CVE data. The goal is to keep the tools practical, understandable, and useful for learning security fundamentals.
 
